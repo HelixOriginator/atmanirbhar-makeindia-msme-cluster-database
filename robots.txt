@@ -1,0 +1,22 @@
+# robots.txt for atmanirbhar-makeindia-msme-cluster-database
+# https://helixoriginator.github.io/atmanirbhar-makeindia-msme-cluster-database/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://helixoriginator.github.io/atmanirbhar-makeindia-msme-cluster-database/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all data directories
+Allow: /data/
+Allow: /docs/
+
+# Disallow unnecessary files
+Disallow: /*.json$
+Disallow: /*.yml$
+Disallow: /*.yaml$
+Disallow: /node_modules/
+Disallow: /.git/
